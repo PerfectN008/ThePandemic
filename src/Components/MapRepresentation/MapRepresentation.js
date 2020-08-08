@@ -85,16 +85,16 @@ const MapRepresentation = ({statewiseData, selected_state}) => {
 
   return (
       statewiseData ? 
-        <div className='map'>
+        <div>
         <ReactTooltip>{tooltipContent}</ReactTooltip>
-            <ComposableMap
+            <ComposableMap className='map'
             projectionConfig={PROJECTION_CONFIG}
             projection="geoMercator"
             width={600}
             height={220}
             data-tip=""
             >
-            <Geographies geography={INDIA_TOPO_JSON}>
+            <Geographies geography={INDIA_TOPO_JSON} >
                 {({ geographies }) =>
                 geographies.map(geo => {
                     //console.log(geo.id);
