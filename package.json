@@ -2,6 +2,8 @@
   "name": "covid-india",
   "version": "0.1.0",
   "private": true,
+  "engines":{"node": "12.18.0",
+              "npm": "6.14.4"}
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -12,6 +14,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "chart.js": "^2.9.3",
+    "create-react-app": "^3.4.1",
     "d3-scale": "^3.2.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
