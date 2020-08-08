@@ -1,0 +1,42 @@
+.vaccine_data{
+    padding: 40px 0;
+    position: relative;
+
+    .bg-video{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+
+        .bg-video-content{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .heading{
+        text-align: center;
+        font-weight: 300;
+        font-size: 50px;
+        letter-spacing: 5px;  
+    }
+
+    .total_data{
+        h5{
+            text-align: center;
+            font-size: 25px;
+            font-weight: 200;
+        }
+    }
+
+    .vaccine{
+        background: rgba(#fff,0.8);
+        width: 85%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}

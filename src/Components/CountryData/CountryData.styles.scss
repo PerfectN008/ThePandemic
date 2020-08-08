@@ -1,0 +1,54 @@
+.country_data{
+    background: #f0f0f0; 
+    padding: 1vh;
+
+    .heading{
+        text-align: center;
+        font-weight: 300;
+        font-size: 50px;
+        letter-spacing: 5px;  
+    }
+
+    .data{
+        .row{
+            max-width: 95%;
+            margin: 0 auto;
+            margin-top: 100px;
+
+            &::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .table{
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                border-collapse: collapse;
+                width: 100%;
+
+                .table_row{
+                    border-bottom: 1px solid grey;
+                }
+
+                th, td{
+                    padding: 12px 15px;
+                }
+            }
+
+            p{
+                color: red;
+
+                &:first-child{
+                    margin-top: 50px;
+                  }
+            }
+
+            form{
+                text{
+                    padding-right: 10px;
+                }
+            } 
+        }
+    }
+}

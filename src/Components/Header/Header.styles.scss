@@ -1,0 +1,37 @@
+.header {
+    height: 75vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#1a69b3, 0.9),
+        rgba(#6bc4ff, 0.8)),
+        url('../../Assets/virus.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .text_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #f0f0f0;
+
+        animation-name: zoomIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        backface-visibility: hidden;
+
+        .heading_primary{
+            font-weight: 500;
+            font-size: 90px;
+            letter-spacing: 10px;
+            margin: 0;
+        }
+
+        .heading_secondary{
+            font-weight: 200;
+            letter-spacing: 11px;
+        }
+    }
+}

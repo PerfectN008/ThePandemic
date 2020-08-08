@@ -1,0 +1,129 @@
+.footer{
+    background: #001f3b;
+    color: #f0f0f0;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .heading{
+        text-align: center;
+        font-weight: 300;
+        font-size: 50px;
+        letter-spacing: 5px; 
+        margin: 0;
+        padding: 60px 0;
+    }
+
+    .row{
+        padding-bottom: 40px;
+        &::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
+    .credits{
+        font-family: 'Roboto', sans-serif;
+        width: 30%;
+        margin: 0 10%;
+
+        a{
+            &:link,
+            &:visited {
+                color: rgb(255, 216, 158);
+                text-decoration: none;
+                text-transform: uppercase;
+                display: inline-block;
+                transition: all .2s;
+                transform: scale(0.95);
+            }
+
+            &:hover,
+            &:active {
+                color: rgb(201, 148, 78);
+                transform: scale(1);
+            }
+        }
+    }
+
+    .apis-used{
+        font-family: 'Roboto', sans-serif;
+        width: 30%;
+        margin: 0 10%;
+
+        ul{
+            list-style: none;
+            padding-left: 10px;
+        }
+
+        a{
+            &:link,
+            &:visited {
+                color: rgb(255, 216, 158);
+                text-decoration: none;
+                text-transform: uppercase;
+                display: inline-block;
+                transition: all .2s;
+                transform: scale(0.95);
+            }
+
+            &:hover,
+            &:active {
+                color: rgb(201, 148, 78);
+                transform: scale(1);
+            }
+        }
+    }
+
+    .social_media{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 40px;
+        text-align: center;
+        border-top: 1px solid rgb(201, 148, 78);
+        padding: 20px;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .icon{
+            &_instagram{
+                transition: 0.3s;
+                margin-right: 40px;
+
+                &:hover{
+                    color: #e1306c;
+                }
+            }
+            &_facebook{
+                transition: 0.3s;
+                margin-right: 40px;
+
+                &:hover{
+                    color: #4267B2;
+                }
+            }
+            &_linkedin{
+                transition: 0.3s;
+                margin-right: 40px;
+
+                &:hover{
+                    color: #0e76a8;
+                }
+            }
+            &_github{
+                transition: 0.3s;
+
+                &:hover{
+                    color: #333333;
+                }
+            }
+        }
+    }
+}

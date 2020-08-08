@@ -1,0 +1,49 @@
+.region_data{
+    background: #f0f0f0; 
+    padding: 1vh;
+    padding-bottom: 50px;
+
+    .heading{
+        text-align: center;
+        font-weight: 300;
+        font-size: 50px;
+        letter-spacing: 5px;  
+    }
+
+    .row{
+        max-width: 95%;
+        margin: 0 auto;
+        margin-top: 10px;
+
+        &::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .statewise_data{
+            margin-top: 50px;
+
+            select{
+                width: 80%;
+                font-size: large;
+                margin: 0 10%;
+                height: 30px;
+                background-color: #fff;
+            }
+        }
+
+        .districtwise_data{
+            margin-top: 50px;
+
+            select{
+                width: 80%;
+                font-size: large;
+                margin: 0 10%;
+                height: 30px;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
